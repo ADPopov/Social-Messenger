@@ -1,0 +1,25 @@
+.side_bar {
+    grid-area: n;
+    background-color: #000000;
+    padding-left: 10px;
+}
+
+.navItem  {
+    padding-top: 10px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.nav .active {
+    color: white;
+}
+
+.logo {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 50px;
+}

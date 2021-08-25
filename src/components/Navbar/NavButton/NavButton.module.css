@@ -1,0 +1,61 @@
+.navButton {
+    margin-right: 16px;
+    padding-left: 16px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navButton:hover .buttonText {
+    color: white;
+    transition: 0.3s linear;
+}
+
+.buttonText {
+    margin: 0;
+    display: inline;
+    position: center;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s linear;
+}
+
+.active {
+    background-color: #282828;
+
+}
+
+.active .buttonText {
+    color: white;
+
+}
+
+.active .icon:first-child {
+    color: #ffffff;
+    transition: 0.3s linear;
+}
+
+.icon {
+    display: inline;
+}
+
+.icon:first-child {
+    color: #565656;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+    margin-right: 16px;
+    transition: 0.3s linear;
+}
+
+
+.navButton:hover .icon:first-child {
+    color: #ffffff;
+    fill: white;
+    transition: 0.3s linear;
+}
+

@@ -1,31 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.container {
+  background-color: #b5b5b5;
+}
+
 .app-wrapper {
-  margin: 0 auto;
+  min-height: 100vh;
   display: grid;
-  width: 1200px;
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
   grid-template-areas:
-  'h h'
+  'n h'
   'n c';
   grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
-
+  grid-template-columns: 261px 10fr;
 }
 
-.header img {
-  width: 50px;
-}
+.app-wrapper-content {
 
-.nav {
-  grid-area: n;
-  background-color: blue;
-}
-
-.header {
-  grid-area: h;
-  background-color: cornsilk;
-}
-
-.content {
   grid-area: c;
-  background-color: coral;
+  background-color: #b5b5b5;
 }

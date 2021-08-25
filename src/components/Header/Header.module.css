@@ -1,0 +1,9 @@
+.header {
+    grid-area: h;
+    background-color: #ee9292;
+}
+
+.loginBtn {
+    float: right;
+    color: white;
+}

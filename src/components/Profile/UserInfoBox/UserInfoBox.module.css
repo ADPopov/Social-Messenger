@@ -1,0 +1,31 @@
+.userInfo_box {
+    display: flex;
+    margin-left: 30px;
+    margin-top: -80px;
+    align-items: center;
+}
+
+.userPhoto_wrap {
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    overflow-x: auto;
+    border-color: white;
+    border-style: solid;
+    z-index: 1;
+
+}
+
+.userPhoto_wrap img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.userName_wrap {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}

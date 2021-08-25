@@ -1,0 +1,26 @@
+.formControl {
+
+}
+
+.error textarea {
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+}
+
+
+.error input {
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.summaryError {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: red;
+}
